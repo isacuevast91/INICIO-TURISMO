@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <title>PRIMAVERA EN MEXICO</title>
+        <style>
+            *{
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+                }
+                body{
+                    font-family: 'open sans';
+                    background-color:#D6CEAE;
+                }
+                .contenedor{
+                    padding: 60px 0;
+                    width: 90%;
+                    max-width: 1000px;
+                    margin: auto;
+                    overflow: hidden; 
+                }
+
+                .titulo{
+                    color: #9C8669;
+                    font-size: 30px;
+                    text-align: center;
+                    margin-bottom: 60px;
+                }
+
+                /*header*/
+                header{
+                    width: 100%;
+                    height: 600px;
+                    background: #D6CEAE;  
+                    /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, hsla(0, 0%, 92%, 0.459), hsla(0, 0%, 86%, 0.459), hsla(0, 0%, 95%, 0.669), hsla(50, 12%, 63%, 0.669)),url(IMAGENES/pm.jpg);  
+                    /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, hsla(0, 0%, 92%, 0.459), hsla(0, 0%, 86%, 0.459), hsla(0, 0%, 95%, 0.669), hsla(50, 12%, 63%, 0.669)),url(IMAGENES/pm.jpg); 
+                    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    background-size: cover;
+                    background-attachment: fixed;
+                    position: relative;
+                }
+                header .textos-header{
+                    display: flex;
+                    height: 430px;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .textos-header h1{
+                    font-size: 40px;
+                    color: #fff;
+                }
+                .textos-header h2{
+                    font-size: 30px;
+                    font-weight: 300;
+                    color: #fff;
+                }
+                /*INICIO*/
+                .contenedor-sobre-primavera{
+                    display:flex;
+                    justify-content: space-evenly;
+                }
+                .imagen-inicio{
+                    width:48%;
+                    height:300px;
+                    width:300px;
+                    border-radius:5px 5px 5px 5px;
+                }
+                .contenedor-sobre-primavera .primavera-texto{
+                    width:48%;
+                }
+                .primavera-texto p{
+                    padding:0px 0px 30px 15px;
+                    font-weight:300;
+                    text-align:justify;
+                }
+/*tabla de lugares*/
+.cont-tabla{
+display:flex;
+justify-content:space-evenly;
+}
+.cont-tabla .t1{
+width:48%;
+}
+
+.t1{
+border-collapse:collapse;
+margin:20px 0;
+font-size:0.9em;
+min-width:300px;
+}
+.t1 thead th{
+background-color:#ECE0D0;
+color:#fff;
+text-align:center;
+}
+.t1 th,
+.t1 td{
+padding:12px 15px;
+}
+.t1 tbody tr{
+border-bottom: 1px solid #dddddd;
+}
+/*LISTAA*/
+.list-primavera{
+width: 150px;
+}
+ul{
+list-style-position:outside;
+}
+li{
+font-weight:300;
+text-align:justify;
+}
+.list-primavera h3{
+    text-align: right;
+color:#967A6C;
+font-size:0.9em;
+}
+/*LINK*/
+.link{
+    background-color: #e0d8b0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 60%;
+    width:100%;
+    float:left;
+    border-radius: 5px 5px 5px 5px;
+}
+                .imagenes{
+                    background-color:#cdc59e;
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 25px;
+                    height: 60%;
+                    width:100%;
+                    float:right;
+                    border-radius: 5px 5px 5px 5px;
+                }
+                .imagenes-final{
+                    padding: 15px;
+                    width: 290px;
+                    height:290px;
+                }
+                .link-texto{
+                    height: 50%;
+                    font-size: 25px;
+                    text-align: center;
+                    color:maroon;
+                }
+                .container img{
+                    width: 800px;
+                    height: 300px;
+                    margin: 0 10px;
+                    border-radius: 5px 5px 5px 5px;
+                }
+                 embed{
+                    padding: 15px;
+                    height: 300px;
+                    width: 300px;
+                    margin: 0 10px;
+                }
+                </style>
+                <body>
+                    <header>
+            <section class="textos-header">
+                <h1>PRIMAVERA EN MEXICO</h1>
+                <h2>TURISMO</h2>
+            </section> 
+        </header>
+        <main>
+            <section class="contenedor">
+                <h2 class="titulo">PRIMAVERA</h2>
+                <div class="contenedor-sobre-primavera">
+                    <img src=".\IMAGENES\primavera.jpg" class="imagen-inicio">
+                    <div class="primavera-texto">
+                        <p>Durante la primavera, México ofrece una amplia gama de destinos turísticos que atraen a visitantes nacionales e internacionales en busca de aventuras, paisajes espectaculares y experiencias culturales.
+                            Durante la primavera, el turismo en México florece con la llegada de condiciones climáticas ideales y una amplia gama de eventos y actividades.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contenedor">
+                <h2 class="titulo">LOS CABOS</h2>
+                <div class="contenedor-sobre-primavera">
+                    <img src="./IMAGENES/cabos.jpg" class="imagen-inicio">
+                    <div class="primavera-texto">
+                        <p>Los Cabos ofrecen una combinación perfecta de clima agradable, actividades emocionantes y belleza natural durante la primavera, lo que lo convierte en un destino turístico muy popular en esta época del año.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="contenedor-sobre-primavera">
+                <div class="contenedor">
+                    <h2 class="titulo">ZONAS TURISTICAS</h2>
+                    <div class="cont-tabla">
+                        <div class="cont-tabla">
+                            <table class="t1">
+                            <thead>
+                            <tr>
+                            <th>Actividad</th>
+                            <th>Descripcion</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td>EL ARCO Y PLAYA DEL AMOR	</td>
+                            <td>
+                            El Arco es un icónico arco de roca natural que marca el punto donde el Mar de Cortés se encuentra con el Océano Pacífico. Cerca se encuentra la Playa del Amor, ideal para nadar y relajarse.
+                            </td>
+                            </tr>
+                            <td>MARINA DEL CABO SAN LUCAS</td>
+                            <td>
+                            Corazón de la actividad turística en Cabo San Lucas, ofrece una variedad de restaurantes, bares, tiendas y actividades como pesca deportiva y avistamiento de ballenas.
+                            
+                            </td>
+                            </tr>
+                            <tr>
+                            <td>
+                            EL MÉDANO BEACH</td>
+                            <td>
+                            La playa más famosa de Cabo San Lucas, conocida por su arena dorada y aguas cristalinas. Ofrece una variedad de deportes acuáticos y una animada escena de bares y restaurantes.
+                            
+                            </td>
+                            <tr>
+                            <td>
+                            SAN JOSE DEL CABO</td>
+                            <td>
+                            Encantadora ciudad colonial con un centro histórico pintoresco lleno de galerías de arte, tiendas de artesanías y restaurantes. Destacan la Plaza Mijares y la Misión de San José del Cabo.
+                            
+                            </td>
+                            </tr>
+                            </tdbody>
+                            </table>
+                            
+                            <div class="list-primavera">
+                            <h3>ACTIVIDADES</h3>
+                            <ul>
+                            
+                            <li>
+                            
+                            <li>Avistamiento de ballenas</li>
+                            <li>Pesca deportiva</li>
+                            <li>Actividades acuáticas</li>
+                            <li>Golf</li>
+                            <li>Exploración del Desierto</li>
+                            <li>Disfrutas de la gastronomía local</li>
+                            
+                            
+                            </ul>
+                            </div>
+                            </div>
+                            </div>
+                            </section>
+                    <br>
+                    <section class="link">
+                        <br>
+                        <br>
+                            <div class="link-texto">
+                                <br>
+                                <br>
+                                <br>
+                                <a href= "https://www.gob.mx/sectur/articulos/tulum-quintana-roo" class="link-texto">Conoce más sobre Los Cabos</a>
+                            </div>
+                        </section>
+                        <section class="imagenes">
+                            <img src=".\IMAGENES/cabos1.jpg" class="imagenes-final">
+                            <img src=".\IMAGENES/cabos2.jpg"  class="imagenes-final">
+                            <img src=".\IMAGENES/cabos3.jpg" class="imagenes-final">
+                        </section>
+                    <section class="contenedor">
+                        <h2 class="titulo">SAN LUIS POTOSI</h2>
+                        <div class="contenedor-sobre-primavera">
+                            <img src=".\IMAGENES/san.jpg" class="imagen-inicio">
+                            <div class="primavera-texto">
+                                <p>San Luis Potosí durante la primavera es un destino turístico emocionante que ofrece una combinación única de naturaleza, cultura, gastronomía y aventura. Ya sea que estés interesado en explorar la belleza natural de la región, sumergirte en su rica historia y arquitectura colonial, o disfrutar de su deliciosa gastronomía, San Luis Potosí tiene algo para todos los gustos y estilos de viaje.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="contenedor-sobre-primavera">
+                            <div class="contenedor">
+                                <h2 class="titulo">ZONAS TURISTICAS</h2>
+                                <div class="cont-tabla">
+                                    <table class="t1">
+                                    <thead>
+                                    <tr>
+                                    <th>Actividad</th>
+                                    <th>Descripcion</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                    <td>HUASTECA POTOSINA	</td>
+                                    <td>
+                                    La región de la Huasteca Potosina es un paraíso natural con impresionantes cascadas, ríos de aguas cristalinas, cuevas y formaciones rocosas únicas. Durante la primavera, la vegetación está exuberante y los paisajes son especialmente impresionantes.
+                                    </td>
+                                    </tr>
+                                    <td>CENTRO HISTORICO DE SAN LUIS POTOSI </td>
+                                    <td>
+                                    El centro histórico de la ciudad es un lugar fascinante para explorar durante la primavera. Con sus hermosas plazas, edificios coloniales bien conservados, iglesias históricas y calles empedradas, ofrece una mirada encantadora al pasado de la ciudad.
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                    <td>
+                                    CASCADA DE TAMUL</td>
+                                    <td>
+                                      Esta impresionante cascada, ubicada en el río Tampaón en la Huasteca Potosina, es una de las más grandes y hermosas de México. Durante la primavera, el caudal de agua suele ser mayor, lo que la hace aún más impresionante.
+                                    </td>
+                                    <tr>
+                                    <td>
+                                    SOTANO DE GOLONDRINAS</td>
+                                    <td>
+                                    Este espectacular abismo natural es uno de los más profundos del mundo y es el hogar de miles de aves que vuelan al amanecer y al atardecer. 
+                                    
+                                     
+                                    </td>
+                                    </tr>
+                                    </tdbody>
+                                    </table>
+                                    
+                                    <div class="list-primavera">
+                                    <h3>ACTIVIDADES</h3>
+                                    <ul>
+                                    
+                                    <li>Exploración de la huasteca potosina</li>
+                                    <li>visita al centro histórico de San luis potosí</li>
+                                    <li>recorrido gastronómico</li>
+                                    <li>visita a los museos</li>
+                                    <li>turismo de aventura</li>
+                                    <li>Visita a los pueblos mágicos cercanos</li>
+                                    
+                                    
+                                    
+                                    </ul>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </section>
+                                        <br>
+                                        <section class="link">
+                                            <br>
+                                            <br>
+                                                <div class="link-texto">
+                                                    <a href= "https://es.wikipedia.org/wiki/Mazatl%C3%A1n" class="link-texto">Conoce más sobre San luis Potosi</a>
+                                                </div>
+                                            </section>
+                                            <section class="imagenes">
+                                                <img src=".\IMAGENES/san1.jpg" class="imagenes-final">
+                                                <img src=".\IMAGENES\san2.jpg"  class="imagenes-final">
+                                                <img src=".\IMAGENES\san3.jpg" class="imagenes-final">
+                                            </section>
+                                        </main>
+                                    </body>
+                                    </html>

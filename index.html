@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>LUGARES TURISTICOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'open sans';
+        }
+        
+        .contenedor {
+            padding: 60px 0;
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        .titulo {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        /*header*/
+        
+        header {
+            width: 100%;
+            height: 100vh;
+            min-height: 600px;
+            max-height: 800px;
+            position: relative;
+            display: grid;
+            background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(IMAGENES/logo.jpg);
+            background-size: cover;
+        }
+        
+        header .textos-header {
+            display: flex;
+            height: 550px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .textos-header h1 {
+            font-size: 40px;
+            color: #fff;
+        }
+        /*PRIMAVERA*/
+        
+        .primavera .titulo {
+            color: rgb(144, 112, 202);
+        }
+        
+        .cont-prim {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .cont-prim .prim {
+            width: 48%;
+        }
+        
+        .img-islas {
+            height: 400px;
+            width: 400px;
+            border-radius: 5px 5px 5px 5px;
+        }
+        
+        .cont-prim .texto-prim {
+            width: 48%;
+        }
+        
+        .texto-prim p {
+            padding: 0px 0px 30px 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        /*VERANO*/
+        
+        .verano {
+            background: #f5d496;
+        }
+        
+        .verano .titulo {
+            font-size: 35px;
+            color: #bb9246;
+        }
+        
+        .cont-verano {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .cont-verano .ver {
+            width: 48%;
+        }
+        
+        .img-verano {
+            height: 400px;
+            width: 400px;
+            border-radius: 5px 5px 5px 5px;
+        }
+        
+        .cont-verano .texto-verano {
+            width: 48%;
+        }
+        
+        .texto-verano p {
+            padding: 0px 0px 30px 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        /*OTOÑO*/
+        
+        .otoño .titulo {
+            font-size: 35px;
+            color: #725724;
+        }
+        
+        .cont-otoño {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .cont-otoño .oto {
+            width: 48%;
+        }
+        
+        .img-otoño {
+            height: 400px;
+            width: 400px;
+            border-radius: 5px 5px 5px 5px;
+        }
+        
+        .cont-otoño .texto-otoño {
+            width: 48%;
+        }
+        
+        .texto-otoño p {
+            padding: 0px 0px 30px 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+        /*INVIERNO*/
+        
+        .invierno {
+            background: #b0d3fc;
+        }
+        
+        .invierno .titulo {
+            font-size: 35px;
+            color: #395996;
+        }
+        
+        .cont-invierno {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .cont-invierno .inv {
+            width: 48%;
+        }
+        
+        .img-invierno {
+            height: 400px;
+            width: 400px;
+            border-radius: 5px 5px 5px 5px;
+        }
+        
+        .cont-invierno .texto-invierno {
+            width: 48%;
+        }
+        
+        .texto-invierno p {
+            padding: 0px 0px 30px 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="textos-header">
+            <h1>LUGARES TURISTICOS</h1>
+        </section>
+    </header>
+    <section class="primavera">
+        <div class="contenedor">
+            <h2 class="titulo">EN LA PRIMAVERA</h2>
+            <div class="cont-prim">
+                <a target="_blank" href="./primavera.html" class="prim"><img src="./IMAGENES/primavera.jpg" class="img-islas"></a>
+                <div class="texto-prim">
+                    <p>DESCUBRE DONDE PASAR LA PRIMAVERA EN MEXICO. DA CLICK A LA IMAGEN!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="verano">
+        <div class="contenedor">
+            <h2 class="titulo">EN EL VERANO</h2>
+            <div class="cont-verano">
+                <a target="_blank" href="./verano.html" class="ver"><img src="./IMAGENES/verano.jpg" class="img-verano"></a>
+                <div class="texto-verano">
+                    <p>DESCUBRE DONDE PASAR EL VERANO EN MEXICO. DA CLICK A LA IMAGEN!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="otoño">
+        <div class="contenedor">
+            <h2 class="titulo">EN EL OTOÑO</h2>
+            <div class="cont-otoño">
+                <a target="_blank" href="./otoño.html" class="oto"><img src="./IMAGENES/otoño.jpg" class="img-otoño"></a>
+                <div class="texto-otoño">
+                    <p>El Pueblo Mágico michoacano, Patzcuaro Michoacan, es una de las paradas obligatorias para visitar en la temporada otoñal, ya que es uno de los destinos más emblemáticos que celebran el Día de Muertos. Da click a la imagen para saber
+                        mas sobre este maravilloso lugar!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="invierno">
+        <div class="contenedor">
+            <h2 class="titulo">EN EL INVIERNO</h2>
+            <div class="cont-invierno">
+                <a target="_blank" href="./index.html" class="inv"><img src="./IMAGENES/invierno.jpg" class="img-invierno"></a>
+                <div class="texto-invierno">
+                    <p>Este pueblo mágico es conocido como “La Suiza de México”, pues en invierno los paisajes y nevadas lo convierten en un destino para actividades alpinas. Los paisajes se transformarán en un manto blanco, los tejados, árboles y montañas
+                        están cubiertos de nieve, creando un escenario pintoresco y tranquilo. Da click a la imagen para saber mas sobre este maravilloso lugar!.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+

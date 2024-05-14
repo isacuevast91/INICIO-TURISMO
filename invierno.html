@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>ARTEAGA COAHUILA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+}
+/*NAV*/
+.titulo{
+    padding: 40px;
+    text-align: center;
+    color: rgb(42, 82, 127);
+}
+nav ul{
+    font-size: 0.9em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(179, 213, 249);
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    color: black;
+    padding: 15px;
+    width: 150px;
+}
+nav ul a:hover{
+    background-color: rgb(215, 239, 250);
+}
+
+/*HISTORIA*/
+.contenido{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contenido .articulo{
+    width: 70%;
+}
+.contenido .articulo div{
+    width: 90%;
+    height: 550px;
+    padding: 15px;
+    background-color: rgb(196, 222, 255);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.articulo h2{
+    color: rgb(63, 94, 129);
+
+}
+.inv{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/*LISTA*/
+.contenido .secundario{
+    width: 30%;
+}
+.contenido .secundario ul{
+    background-color: rgb(114, 147, 188);
+    border-radius: 15px;
+    padding: 20px;
+    height: 600px;
+}
+.contenido .secundario .act{
+    text-align: center;
+    color: rgb(63, 89, 129);
+    font-size: 15px;
+}
+.secundario li{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: rgb(205, 240, 255);
+}
+
+/*TURISTAS*/
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.caracteristicas{
+    background-color: rgb(94, 136, 183);
+}
+.contenedor .car{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(55, 100, 113);
+}
+.t1{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+.t1 thead th{
+    background-color: rgb(55, 89, 113);
+    color: #fff;
+    text-align: center;
+}
+.t1 th,
+.t1 td{
+    padding: 12px 15px;
+}
+.t1 tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.t1 tbody td{
+    border: 1px solid #dddddd;
+}
+
+/*footer*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+    </style>
+</head>
+<body>
+    <div class="titulo">
+        <h1>ARTEAGA COAHUILA</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a target="_blank" href="file:///D:/WEB%204BPM%20ERICKA/CSS/LUGARES%20TURISTICOS.html">Inicio</a></li>
+            <li><a target="_blank" href="https://es.wikipedia.org/wiki/Arteaga_(Coahuila)">Wikipedia</a></li>
+            <li><a target="_blank" href="https://www.expedia.mx/Arteaga.d6050264.Guia-de-vacacioneshttps://www.expedia.mx/Arteaga.d6050264.Guia-de-vacaciones">Reserva tu viaje</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contenido">
+            <div class="articulo">
+                <div>
+                    <h2>HISTORIA DE ARTEAGA</h2>
+                    <br>
+                    <p>Un Pueblo Mágico en medio de una inmensa zona de bosques con pinos y valles de manzanos de los más impresionantes del país. Poseedor de un clima sumamente agradable donde predomina el viento fresco a cualquier hora del día. Arteaga es un destino que por sus bellos paisajes boscosos y cumbres nevadas en invierno, se considera “La Suiza de México”.</p>
+                    <br>
+                    <img src="./IMAGENES/arteaga.jpg" class="inv">
+                </div>
+            </div>
+            <div class="secundario">
+                <ul>
+                    <h3 class="act">Atractivos:</h3>
+                    <br>
+                    <li>Acampar</li>
+                    <li>Alameda Venustiano Carranza</li>
+                    <li>Campo de golf de Monterreal</li>
+                    <li>Cañón de San Isidro</li>
+                    <li>Carbonera, los Lirios</li>
+                    <li>Casa Carranza</li>
+                    <li>Cascada Cola de Caballo</li>
+                    <li>Cascada El Salto</li>
+                    <li>Ciclismo de montaña</li>
+                    <li>Descenso en trineo</li>
+                    <li>Esquiar en Bosques de Monterrea</li>
+                    <li>Rappel</li>
+                    <li>Senderismo / Trekking</li>
+                </ul>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="caracteristicas">
+            <div class="contenedor">
+                <h2 class="car">CARACTERISTICAS</h2>
+                <div class="cont-turistas">
+                    <table class="t1">
+                        <thead>
+                            <tr>
+                                <th>FESTIVIDADES</th>
+                                <th>FUNDADO</th>
+                                <th>CREADOR</th>
+                                <th>MEJOR EPOCA</th>
+                                <th>GASTRONOMIA</th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                <td>Día de San Isidro labrador, 15 mayo. Música, danzas y feria.</td>
+                                <td>Fue fundado en el año 1591</td>
+                                <td>Fundado por Francisco de Urdiñola</td>
+                                <td>Diciembre/Enero</td>
+                                <td>Es un gran productor de frutas como manzana, mebrillo y durazno</td>
+                                </tr>
+                                <tr>
+                                    <td>Feria de la Manzana, septiembre.</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Licores y dulces</td>
+                                </tr>
+                                <tr>
+                                    <td>Contradanza de Arteaga, se baila en casamientos, reuniones, bailes y bautizos.</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Enchiladas</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Carnitas Cristal</td>
+                                </tr>
+                            </tbody>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </section>
+       </main>
+       <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Mas informacion, visita:</h4>
+                <a target="_blank" href="https://visitmexico.com/pueblos-magicos/" class="link">Pueblos magicos</a>
+            </div>
+            <div class="content-foo">
+                <h4>Locacion</h4>
+                <p>A sólo 20 minutos de Saltillo por la 89; y 1:20 h desde Monterrey por la 40 y 57.</p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> ERICKA BACA | ROSALBA CUEVAS</h2>
+    </footer>
+</body>
+</html>
+

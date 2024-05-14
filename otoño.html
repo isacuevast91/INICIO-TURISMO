@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>PÁTZCUARO MICHOACÁN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+}
+/*NAV*/
+.titulo{
+    padding: 40px;
+    text-align: center;
+    color: rgb(88, 73, 32);
+}
+nav ul{
+    font-size: 0.9em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(255, 216, 168);
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    color: black;
+    padding: 15px;
+    width: 150px;
+}
+nav ul a:hover{
+    background-color: rgb(250, 237, 215);
+}
+
+/*HISTORIA*/
+.contenido{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contenido .articulo{
+    width: 70%;
+}
+.contenido .articulo div{
+    width: 90%;
+    height: 550px;
+    padding: 15px;
+    background-color: rgb(255, 227, 196);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.articulo h2{
+    color: rgb(129, 99, 63);
+
+}
+.oto{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/*LISTA*/
+.contenido .secundario{
+    width: 30%;
+}
+.contenido .secundario ul{
+    background-color: rgb(188, 153, 114);
+    border-radius: 15px;
+    padding: 20px;
+    height: 600px;
+}
+.contenido .secundario .act{
+    text-align: center;
+    color: rgb(129, 108, 63);
+    font-size: 15px;
+}
+.secundario li{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: rgb(255, 233, 205);
+}
+
+/*TURISTAS*/
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.caracteristicas{
+    background-color: rgb(183, 155, 94);
+}
+.contenedor .car{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(113, 81, 55);
+}
+.t1{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+.t1 thead th{
+    background-color: rgb(113, 85, 55);
+    color: #fff;
+    text-align: center;
+}
+.t1 th,
+.t1 td{
+    padding: 12px 15px;
+}
+.t1 tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.t1 tbody td{
+    border: 1px solid #dddddd;
+}
+
+/*footer*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+    </style>
+</head>
+<body>
+    <div class="titulo">
+        <h1>PATZCUARO MICHOACAN</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a target="_blank" href="file:///D:/WEB%204BPM%20ERICKA/CSS/LUGARES%20TURISTICOS.html">Inicio</a></li>
+            <li><a target="_blank" href="https://es.wikipedia.org/wiki/Arteaga_(Coahuila)">Wikipedia</a></li>
+            <li><a target="_blank" href="https://www.despegar.com.mx/paquetes/pa4/paquetes-a-patzcuaro">Reserva tu viaje</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contenido">
+            <div class="articulo">
+                <div>
+                    <h2>HISTORIA DE PATZCUARO</h2>
+                    <br>
+                    <p>Este pueblo mágico puede presumir más de 500 años de historia. Fundado por Don Vasco de Quiroga para ser el centro político y religioso de la región. Él erigió la Basílica de Nuestra Señora de la Salud y fundó la primera universidad de México, el Colegio de San Nicolás, hoy Museo de Artes e Industrias Populares.</p>
+                    <br>
+                    <img src="./IMAGENES/patz.jpg" class="oto">
+                </div>
+            </div>
+            <div class="secundario">
+                <ul>
+                    <h3 class="act">Atractivos:</h3>
+                    <br>
+                    <li>Antiguo Colegio de San Nicolás</li>
+                    <li>Casa de los Once Patios</li>
+                    <li>Plaza Vasco de Quiroga</li>
+                    <li>Templo del Sagrario</li>
+                    <li>Basílica de la Virgen de la Salud</li>
+                    <li>Templo y Hospital de San Juan de Dios</li>
+                    <li>La Plaza de San Francisco</li>
+                    <li>Palacio de Huitziméngari</li>
+                    <li>Biblioteca Pública Gertrudis Bocanegra</li>
+                    <li>Teatro Emperador Caltzontzin</li>
+                </ul>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="caracteristicas">
+            <div class="contenedor">
+                <h2 class="car">CARACTERISTICAS</h2>
+                <div class="cont-turistas">
+                    <table class="t1">
+                        <thead>
+                            <tr>
+                                <th>FESTIVIDADES</th>
+                                <th>FUNDADO</th>
+                                <th>CREADOR</th>
+                                <th>MEJOR EPOCA</th>
+                                <th>GASTRONOMIA</th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                <td>Aniversario de Don Vasco de Quiroga, 14 de marzo. Semana cultural.</td>
+                                <td>Fue fundado en el año 1300</td>
+                                <td>Fundado por los purepechas</td>
+                                <td>Noviembre</td>
+                                <td>Charales secos</td>
+                                </tr>
+                                <tr>
+                                    <td>Aniversario de la Ciudad, 28 dec septiembre.</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Corundas rellenas</td>
+                                </tr>
+                                <tr>
+                                    <td>"Kuirsi-atakua", 31 de octubre. cacería ceremonial de patos (Janitzio)</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>mezcales</td>
+                                </tr>
+                                <tr>
+                                    <td>Día de Muertos, 1 al 2 de noviembre.</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Día de la Virgen ​de la Salud, 7 al 8 de diciembre.</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </section>
+       </main>
+       <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Mas informacion, visita:</h4>
+                <a target="_blank" href="https://www.gob.mx/sectur/es/articulos/patzcuaro-michoacan-211530" class="link">Patzcuaro</a>
+            </div>
+            <div class="content-foo">
+                <h4>Locacion</h4>
+                <p>Al centro del Estado, limita al norte con Tzintzuntzan.</p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> ERICKA BACA | ROSALBA CUEVAS</h2>
+    </footer>
+</body>
+</html>
